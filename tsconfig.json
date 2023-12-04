@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@src/*": ["src/*"]
+        }
+    },
+    "include": ["src/**/*.ts", ".env"],
+    "exclude": ["node_modules"],
+    "dotenv": {
+        "path": ".env"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "task-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/task-tital/task-front.git"
+  },
+  "author": "alonso y juanpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/task-tital/task-front/issues"
+  },
+  "homepage": "https://github.com/task-tital/task-front#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
