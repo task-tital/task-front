@@ -1,23 +1,6 @@
 import React, { useState } from 'react'
 import { insertThis  } from '../service/apiRest';
 
-/**
- * @param {string} titulo 
- * @param {string} descripcion 
- * @param {number} prioridad 
- * @returns {boolean} True or False
- */
-function esTareaValida(titulo, descripcion, prioridad) {
-    if(titulo !== undefined && titulo !== null && titulo !== "") {
-        if(descripcion !== undefined && descripcion !== null && descripcion !== "") {
-            if(prioridad !== undefined && prioridad !== null && prioridad >= 0) {
-                return "";
-            }
-        }
-
-        return "disabled";
-    }
-}
 
 /**
  * Esta funcion devuelve un input:
